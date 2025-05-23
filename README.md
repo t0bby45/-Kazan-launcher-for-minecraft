@@ -1,4 +1,5 @@
 # Kazan Launcher
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Kazan+Launcher)](https://git.io/typing-svg)
 
 **Kazan Launcher** is a custom Minecraft launcher built with Python using `customtkinter` for the GUI and `minecraft-launcher-lib` for version management and launching. It supports vanilla Minecraft installations and Forge mod installations.
 
@@ -23,4 +24,16 @@
   - `minecraft-launcher-lib`
 
 
-<details> <summary>Пример вставки в README.md</summary> <pre><code>## 📁 Project Structure ``` project/ ├── main.py ├── ui/ │ ├── launcher_ui.py │ └── option_menu.py ├── logic/ │ ├── install_logic.py │ ├── launcher_utils.py │ └── version_utils.py └── assets/ ├── profile.png ├── settings.png └── version.png ``` </code></pre> </details>
+project/
+├── main.py                  # Entry point
+├── ui/
+│   ├── launcher_ui.py       # Main UI class
+│   └── option_menu.py       # Custom dropdown widget
+├── logic/
+│   ├── install_logic.py     # Installation logic (vanilla & Forge)
+│   ├── launcher_utils.py    # Helpers for launching versions
+│   └── version_utils.py     # Version filtering & updates
+└── assets/
+    ├── profile.png
+    ├── settings.png
+    └── version.png
