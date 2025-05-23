@@ -13,19 +13,6 @@
 
 ## 📁 Project Structure
 
-project/
-├── main.py # Entry point of the application
-├── ui/
-│ ├── launcher_ui.py # Main launcher GUI class
-│ └── option_menu.py # Custom dropdown widget
-├── logic/
-│ ├── install_logic.py # Logic for installing versions
-│ ├── launcher_utils.py # Launcher-related helpers
-│ └── version_utils.py # Version filtering and sorting
-└── assets/
-├── profile.png
-├── settings.png
-└── version.png
 
 
 ## 🛠 Requirements
@@ -34,3 +21,23 @@ project/
 - pip packages:
   - `customtkinter`
   - `minecraft-launcher-lib`
+
+
+## 📁 Project Structure
+
+project/
+├── main.py # Entry point of the application
+│
+├── ui/ # UI-related components
+│ ├── launcher_ui.py # Main launcher window and layout
+│ └── option_menu.py # Custom dropdown widget (version selector)
+│
+├── logic/ # Logic separated from UI
+│ ├── install_logic.py # Functions for installing Minecraft & Forge
+│ ├── launcher_utils.py # Helper methods for launching the game
+│ └── version_utils.py # Version filtering and formatting
+│
+├── assets/ # Icons and image files used in the launcher
+│ ├── profile.png
+│ ├── settings.png
+│ └── version.png
