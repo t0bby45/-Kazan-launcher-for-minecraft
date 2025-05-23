@@ -23,21 +23,4 @@
   - `minecraft-launcher-lib`
 
 
-## 📁 Project Structure
-
-project/
-├── main.py # Entry point of the application
-│
-├── ui/ # UI-related components
-│ ├── launcher_ui.py # Main launcher window and layout
-│ └── option_menu.py # Custom dropdown widget (version selector)
-│
-├── logic/ # Logic separated from UI
-│ ├── install_logic.py # Functions for installing Minecraft & Forge
-│ ├── launcher_utils.py # Helper methods for launching the game
-│ └── version_utils.py # Version filtering and formatting
-│
-├── assets/ # Icons and image files used in the launcher
-│ ├── profile.png
-│ ├── settings.png
-│ └── version.png
+<details> <summary>Пример вставки в README.md</summary> <pre><code>## 📁 Project Structure ``` project/ ├── main.py ├── ui/ │ ├── launcher_ui.py │ └── option_menu.py ├── logic/ │ ├── install_logic.py │ ├── launcher_utils.py │ └── version_utils.py └── assets/ ├── profile.png ├── settings.png └── version.png ``` </code></pre> </details>
