@@ -12,8 +12,7 @@
 - Version selector with custom dropdown
 - Installed versions list with delete option
 
-## 📁 Project Structure
-
+![](https://komarev.com/ghpvc/?username=t0bby45)
 
 
 ## 🛠 Requirements
@@ -23,6 +22,7 @@
   - `customtkinter`
   - `minecraft-launcher-lib`
 
+## 📁 Project Structure
 
 project/
 ├── main.py                  # Entry point
